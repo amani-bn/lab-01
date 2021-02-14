@@ -1,0 +1,148 @@
+@media (min-width:768px){
+
+.divb{
+    width:200px;
+    height:600px;
+    float:left;
+    padding-top:200px;
+}
+
+.divc{
+    width:380px;
+    height:200px;
+    float:left;
+    padding-top:50px;
+
+
+}
+
+.divd{
+    width:380px;
+    height:200px;
+    float:right; 
+    padding-top:50px;
+
+}
+
+.dive{
+    width:190px;
+    height:250px;
+    float:left;
+    padding-top:75px;
+
+}
+
+.divf{
+    width: 190px;
+    height: 250px;
+    float: left;
+    padding-top:75px;
+}
+
+.divg{
+    width: 190px;
+    height: 250px;
+    float: left;
+    padding-top:75px;
+
+
+}
+
+.divh{
+    width: 190px;
+    height: 250px;
+    float: right;
+    padding-top:75px;
+    
+
+
+}
+
+.divi{
+    width: 760px;
+    height: 150px;
+    float: right;
+    
+
+
+}
+}
+
+@media (max-width:767px){
+
+    .diva{
+        width: 480px;
+        height: 75px;
+    }
+    .divb{
+        width: 480px;
+        height: 150px;
+        padding-top: 50px;
+
+ 
+    }
+    
+    .divc{
+        width: 480px;
+        height: 125px;
+        padding-top:40px ;
+
+    }
+    
+    .divd{
+        width: 480px;
+        height: 125px;
+        padding-top:40px ;
+
+
+    }
+    
+    .dive{
+        width: 240px;
+        height: 250px;
+        float: left;
+        padding-top:100px ;
+
+
+
+    }
+    
+    .divf{
+        width: 240px;
+        height: 250px;
+        float: right;
+        padding-top:100px ;
+
+
+
+    }
+    
+    .divg{
+        width: 240px;
+        height: 250px;
+        float: left;
+        padding-top:100px ;
+
+
+
+    }
+    
+    .divh{
+        width: 240px;
+        height: 250px;
+        float: right;
+        padding-top:100px ;
+    }
+    
+    .divi{
+        width: 480px;
+        height: 80px;
+        float: left;
+        padding-top:30px ;
+
+
+
+    }
+
+
+}

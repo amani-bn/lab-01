@@ -1,0 +1,41 @@
+@media (min-width:768px){
+    body{
+    width: 100%;
+    
+    }
+    section{
+    height:768px;
+    width:960px;
+    
+    }
+    div{
+        box-sizing: border-box;
+        border: 1px solid rgb(37, 37, 37);
+        background: rgb(170, 168, 168);
+        padding:30px;
+    }
+}
+
+@media (max-width:767px){
+
+    body{
+        width: 100%;
+    }
+    
+    section{
+        height:767px;
+        width:480px;
+    }
+
+
+    div{
+        box-sizing: border-box;
+        border: 1px solid rgb(37, 37, 37);
+        background: rgb(170, 168, 168);
+        padding:30px;
+    }
+
+
+
+
+}
