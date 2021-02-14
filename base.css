@@ -1,0 +1,40 @@
+@media (min-width:768px){
+    body{
+    margin: auto;
+    padding:40px;
+    }
+    
+section{
+    
+    margin: auto;
+    padding: auto;
+
+}
+
+div{
+    padding:30px;
+}
+}
+
+@media (max-width:767px){
+
+    body{
+        margin: auto;
+        padding:40px;
+    }
+        
+    section{
+        
+        margin: auto;
+        padding: auto;
+    
+    }
+
+    div{
+        padding:30px;
+    }
+
+
+
+}
+
