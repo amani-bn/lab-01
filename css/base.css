@@ -1,40 +1,26 @@
-@media (min-width:768px){
-    body{
-    margin: auto;
-    padding:40px;
-    }
-    
-section{
-    
-    margin: auto;
-    padding: auto;
 
+* {
+    box-sizing: border-box;
 }
 
-div{
-    padding:30px;
-}
-}
 
-@media (max-width:767px){
 
-    body{
-        margin: auto;
-        padding:40px;
-    }
-        
-    section{
-        
-        margin: auto;
-        padding: auto;
-    
-    }
+body {
+    width: 100%;
+    margin: 0 auto;
+  }
 
-    div{
-        padding:30px;
-    }
+  section {
+    height: 767px;
+    width: 480px;
+  }
+  @media only screen and (max-width: 480px) and (min-width: 0px) {
+ 
+  .container {
+    display: grid;
+  }
+
 
 
 
 }
-
