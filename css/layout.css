@@ -1,9 +1,10 @@
 
-@media only screen and (max-width: 480px) and (min-width: 0px) {
+@media screen and (max-width: 767px)
+{
 
 .container {
     display: grid;
-    background-color: rgba(128, 128, 128, 0.733);
+    /* background-color: rgba(128, 128, 128, 0.733); */
     grid-template-areas:
       "a a"
       "b b"
@@ -18,6 +19,7 @@
     grid-area: a;
     height: 75px;
     width: 480px;
+    /* line-height: 75px; */
     background: #d8ac9c;
   }
   .divb {
@@ -75,11 +77,12 @@
 
 }
 
-@media only screen and (max-width: 1280px) and (min-width: 769px) {
+@media screen and (min-width: 768px)
+ {
 
     .container {
         display: grid;
-        background-color: rgba(128, 128, 128, 0.733);
+        /* background-color: rgba(128, 128, 128, 0.733); */
         grid-template-areas:
           "a a a a a"
           "b c c d d"
@@ -147,7 +150,7 @@
     }
 
 }
-
+/* 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
     .container {
         display: grid;
@@ -216,6 +219,7 @@
     width: 760px;
     background: #c19277;
   }
+ */
 
 
 
@@ -235,5 +239,4 @@
 
 
 
-}
 

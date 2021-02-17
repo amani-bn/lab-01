@@ -1,10 +1,8 @@
 .container > div {
   text-align: center;
 }
-.container {
-    background-color: rgba(128, 128, 128, 0.733);
-  }
-@media only screen and (max-width: 480px) and (min-width: 0px) { /*   Mobile view */
+
+  @media screen and (max-width: 767px) { /*   Mobile view */
  
   .diva {
     background: #d8ac9c;
@@ -38,7 +36,7 @@
     background: #d8ac9c;
 }
   }
-  @media only screen and (max-width: 1280px) and (min-width: 769px) {  /* Desktop View*/
+  @media screen and (min-width: 768px) {  /* Desktop View*/
     .diva {
         background: #ffcb91;
   }
@@ -71,7 +69,7 @@
     background: #ffcb91;
   }
 }
-@media only screen and (max-width: 768px) and (min-width: 481px) {    /* Tablet View*/
+ /* @media only screen and (max-width: 768px) and (min-width: 481px) {    
     .diva {
         background: #158467;
   }
@@ -104,7 +102,7 @@
     background: #c19277;
 }
 
-}
- 
+} */
+  
 
 
