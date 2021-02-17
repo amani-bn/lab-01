@@ -1,26 +1,26 @@
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-
-
 body {
-    width: 100%;
-    margin: 0 auto;
-  }
+  width: 100%;
+  margin: 0 auto;
+  /* box-sizing: border-box; */
+}
 
-  section {
-    height: 767px;
-    width: 480px;
-  }
-  @media only screen and (max-width: 480px) and (min-width: 0px) {
- 
+/* @media screen and (max-width: 767px) {
   .container {
     display: grid;
   }
-
-
-
-
 }
+@media screen and (min-width: 768px) {
+   .container {
+    display: grid;
+  } 
+} */
+/* 
+@media (max-width: 768px) and (min-width: 481px) {
+  .container {
+    display: grid;
+  }
+} */
