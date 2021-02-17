@@ -1,41 +1,239 @@
-@media (min-width:768px){
-    body{
-    width: 100%;
+
+@media only screen and (max-width: 480px) and (min-width: 0px) {
+
+.container {
+    display: grid;
+    background-color: rgba(128, 128, 128, 0.733);
+    grid-template-areas:
+      "a a"
+      "b b"
+      "c c"
+      "d d"
+      "e f"
+      "g h"
+      "i i";
+    }
     
-    }
-    section{
-    height:768px;
-    width:960px;
-    
-    }
-    div{
-        box-sizing: border-box;
-        border: 1px solid rgb(37, 37, 37);
-        background: rgb(170, 168, 168);
-        padding:30px;
-    }
+  .diva {
+    grid-area: a;
+    height: 75px;
+    width: 480px;
+    background: #d8ac9c;
+  }
+  .divb {
+    grid-area: b;
+    height: 150px;
+    width: 480px;
+    background: #999b84;
+  }
+  .divc {
+    grid-area: c;
+    height: 125px;
+    width: 480px;
+    background: #ad6c80;
+  }
+  .divd {
+    grid-area: d;
+    height: 125px;
+    width: 480px;
+    background: #8b5e83;
+  }
+  .dive {
+    grid-area: e;
+    height: 250px;
+    width: 240px;
+    background: #efd9d1;
+  }
+
+  .divf {
+    grid-area: f;
+    height: 250px;
+    width: 240px;
+    background: #f4eeed;
+  }
+
+  .divg {
+    grid-area: g;
+    height: 250px;
+    width: 240px;
+    background: #999b84;
+  }
+
+  .divh {
+    grid-area: h;
+    height: 250px;
+    width: 240px;
+    background: #ad6c80;
+  }
+
+  .divi {
+    grid-area: i;
+    height: 80px;
+    width: 480px;
+    background: #d8ac9c;
+  }
+
 }
 
-@media (max-width:767px){
+@media only screen and (max-width: 1280px) and (min-width: 769px) {
 
-    body{
-        width: 100%;
-    }
+    .container {
+        display: grid;
+        background-color: rgba(128, 128, 128, 0.733);
+        grid-template-areas:
+          "a a a a a"
+          "b c c d d"
+          "b e f g h"
+          "b i i i i";
+      }
     
-    section{
-        height:767px;
-        width:480px;
+    .diva {
+      grid-area: a;
+      height: 100px;
+      width: 960px;
+      background: #ffcb91;
+    }
+    .divb {
+      grid-area: b;
+      height: 600px;
+      width: 200px;
+      background: #94ebcd;
+    }
+    .divc {
+      grid-area: c;
+      height: 200px;
+      width: 380px;
+      background: #9a8194;
+    }
+    .divd {
+      grid-area: d;
+      height: 200px;
+      width: 380px;
+      background: #c6a9a3;
+    }
+    .dive {
+      grid-area: e;
+      height: 250px;
+      width: 190px;
+      background: #e97878;
+    }
+  
+    .divf {
+      grid-area: f;
+      height: 250px;
+      width: 190px;
+      background: #ad6c80;
+    }
+  
+    .divg {
+      grid-area: g;
+      height: 250px;
+      width: 190px;
+      background: #ee99a0;
+    }
+  
+    .divh {
+      grid-area: h;
+      height: 250px;
+      width: 190px;
+      background: #e97878;
+    }
+  
+    .divi {
+      grid-area: i;
+      height: 150px;
+      width: 760px;
+      background: #ffcb91;
     }
 
+}
 
-    div{
-        box-sizing: border-box;
-        border: 1px solid rgb(37, 37, 37);
-        background: rgb(170, 168, 168);
-        padding:30px;
-    }
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .container {
+        display: grid;
+        background-color: rgba(128, 128, 128, 0.733);
+        grid-template-areas:
+          "a b b b"
+          "c c d e"
+          "f g h i";
+      }
+      
+  .diva {
+    grid-area: a;
+    height: 100px;
+    width: 960px;
+    background: #158467;
+  }
+  .divb {
+    grid-area: b;
+    height: 600px;
+    width: 200px;
+    background: #065446;
+  }
+  .divc {
+    grid-area: c;
+    height: 200px;
+    width: 380px;
+    background: #197163;
+  }
+  .divd {
+    grid-area: d;
+    height: 200px;
+    width: 380px;
+    background: #fadcac;
+  }
+  .dive {
+    grid-area: e;
+    height: 250px;
+    width: 190px;
+    background: #065446;
+  }
+
+  .divf {
+    grid-area: f;
+    height: 250px;
+    width: 190px;
+    background: #c19277;
+  }
+
+  .divg {
+    grid-area: g;
+    height: 250px;
+    width: 190px;
+    background: #eaac7f;
+  }
+
+  .divh {
+    grid-area: h;
+    height: 250px;
+    width: 190px;
+    background: #f4f5db;
+  }
+
+  .divi {
+    grid-area: i;
+    height: 150px;
+    width: 760px;
+    background: #c19277;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 }
+
